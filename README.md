@@ -13,7 +13,7 @@ Tasks are stored persistently using a JSON file.
 - Mark tasks as completed
 - Edit existing tasks
 - Delete tasks
-- Persistent storage using tasks.json
+- Persistent storage using `tasks.json`
 
 ## Technologies Used
 
@@ -23,8 +23,8 @@ Tasks are stored persistently using a JSON file.
 
 ### Data Storage Format
 
-Tasks are stored in 'tasks.json' using this structure:
-'''
+Tasks are stored in `tasks.json` using this structure:
+```
 {
   "New_Task": "Task name",
   "Description": "Task description",
@@ -32,7 +32,7 @@ Tasks are stored in 'tasks.json' using this structure:
   "Due_Date": "YYYY-MM-DD",
   "Status": false
 }
-'''
+```
 
 ## Error Handling
 
